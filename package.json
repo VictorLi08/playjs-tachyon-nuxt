@@ -5,11 +5,11 @@
   "scripts": {
     "dev": "nuxt",
     "format": "prettier --write .",
-    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "project:audit": "npm audit",
+    "project:lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "site:build": "nuxt build",
     "site:start": "nuxt start",
-    "site:generate": "nuxt generate",
-    "project:audit": "npm audit"
+    "site:generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
