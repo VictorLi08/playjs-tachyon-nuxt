@@ -11,7 +11,7 @@
     "npm:outdated": "npm outdated",
     "site:build": "nuxt build",
     "site:start": "nuxt start",
-    "site:generate": "nuxt generate"
+    "site:export": "nuxt generate"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
